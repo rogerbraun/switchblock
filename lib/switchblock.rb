@@ -37,7 +37,7 @@ module Switchblock
   end
 
   private
-  def it_to(x, *args)
-    BlockSwitcher.new(x, args)
+  def it_to(called_block, *args)
+    BlockSwitcher.new(called_block, args)
   end
 end
