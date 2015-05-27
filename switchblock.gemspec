@@ -9,9 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Roger Braun"]
   spec.email         = ["roger@rogerbraun.net"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A module that helps you pass multiple blocks to a method.}
+  spec.homepage      = "http://github.com/rogerbraun/switchblock"
+
+  spec.license       = 'GPL-3.0'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
